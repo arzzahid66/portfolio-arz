@@ -1,0 +1,130 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img "Abdul Rehman Zahid" [ref=e4]
+    - heading "Abdul Rehman Zahid" [level=1] [ref=e5]
+    - paragraph [ref=e6]: I build AI agents, RAG systems, and multilingual NLP that survive production
+    - generic [ref=e7]:
+      - link "GitHub" [ref=e8] [cursor=pointer]:
+        - /url: https://github.com/arzzahid66
+      - link "LinkedIn" [ref=e9] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/abdul-rehman-zahid-5a34b628a/
+      - link "Email" [ref=e10] [cursor=pointer]:
+        - /url: mailto:arzaiengineer@gmail.com
+      - generic [ref=e11]: Faisalabad, Pakistan
+  - separator [ref=e12]
+  - paragraph [ref=e13]: "Three years of taking language models the last mile: agents with memory that actually hold a conversation, retrieval over documents nobody wanted to read, and the boring infrastructure underneath that keeps both of them awake at 3am. Currently at Xeven Solutions. On the side I teach AI engineering one-to-one on Preply — 50+ students, 400 lessons, project-based from LLM APIs through RAG, agentic design, and n8n automation."
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]: 2023 — Present
+      - img "Xeven Solutions" [ref=e18]
+    - generic [ref=e19]:
+      - generic [ref=e20]: AI Engineer, Xeven Solutions
+      - paragraph [ref=e21]: "I design and deploy production AI agents and multi-agent systems with long-term memory across legal tech, education, and enterprise workflows — cutting manual operational effort by 40%. I architected the RAG stack (semantic search, document processing, vector storage) on OpenAI, Claude, and Gemini, and the orchestration layer in LangChain and LangGraph with MCP, Slack, Gmail, and LinkedIn integrations. I also own how it runs: Docker, AWS EC2, self-hosted n8n behind Nginx and PM2, redundant vector databases, API failover, and LangSmith monitoring for observability and spend."
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]: 2024 — Present
+      - img "Preply" [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]: AI Tutor (freelance), Preply
+      - paragraph [ref=e29]: 50+ students worldwide, 400+ lessons — project-based teaching on LLM APIs, prompt engineering, Claude Code, RAG, agentic AI design, and n8n automation.
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: 2021 — 2023
+      - img "Beacon Impex" [ref=e34]
+    - generic [ref=e35]:
+      - generic [ref=e36]: Data Entry In-Charge, Beacon Impex
+      - paragraph [ref=e37]: Structured large volumes of operational and customer data, built reusable templates and database workflows that cut manual errors, and standardized reporting formats across departments. This is where the automation instinct started.
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]: 2017 — 2022
+      - img "Government College University Faisalabad" [ref=e42]
+    - generic [ref=e43]:
+      - generic [ref=e44]: BSc Electrical Engineering Technology, GCUF
+      - paragraph [ref=e45]: Government College University Faisalabad. Engineering fundamentals first; the machine learning came from evenings, papers, and building things that didn't work until they did.
+  - generic [ref=e46]: Bio
+  - generic [ref=e47]:
+    - paragraph [ref=e48]: Abdul Rehman Zahid is an AI engineer based in Faisalabad, Pakistan. At Xeven Solutions he designs production-grade AI agents and multi-agent systems with long-term memory, and architected the company's retrieval stack — semantic search, document processing, vector storage — across the OpenAI, Anthropic Claude, and Google Gemini APIs. His Arabic NLP platform has processed over a million multilingual documents at 92% accuracy.
+    - paragraph [ref=e49]: He also upgraded the company's deployment practice — Docker, AWS EC2, redundant vector databases, API failover, LangSmith observability — and he teaches AI engineering to students worldwide on Preply. He holds a BSc in Electrical Engineering Technology from Government College University Faisalabad.
+  - generic [ref=e50]: Selected Projects
+  - generic [ref=e51]:
+    - generic [ref=e53]:
+      - generic [ref=e54]: "demo video: paste YouTube link"
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Legal Translation Order Agent
+          - generic [ref=e59]: 500+ interactions/day
+        - paragraph [ref=e60]: Conversational AI that replaced manual client intake for a legal translation service — collects mandatory order details dynamically, routes standard vs. PRO requests, and ships with a no-code dashboard for editing services, FAQs, and agent behaviour. Cut manual processing by 70%.
+        - generic [ref=e61]: Python · FastAPI · LangChain · LangGraph · OpenAI · RAG · PostgreSQL · Docker · AWS EC2
+    - generic [ref=e63]:
+      - generic [ref=e64]: "demo video: paste YouTube link"
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Multi-Agent Fleet Chatbot
+          - generic [ref=e69]: stateful across sessions
+        - paragraph [ref=e70]: A Supervisor Agent routes questions to specialized SQL and troubleshooting sub-agents for commercial robot fleets, returning live fleet metrics and manufacturer-specific repair guidance. PostgreSQL checkpointing keeps conversations stateful; retry middleware and rate limiting keep it production-grade.
+        - generic [ref=e71]: Python · FastAPI · LangGraph · LangChain · MSSQL · PostgreSQL · SQLAlchemy
+    - generic [ref=e73]:
+      - generic [ref=e74]: "demo video: paste YouTube link"
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]: Arabic NLP Platform
+          - generic [ref=e79]: 1M+ docs · 92% accuracy
+        - paragraph [ref=e80]: Arabic-and-English NLP system for question answering, summarization, and translation over enterprise content, built on language-specific pipelines and embedding search instead of one general-purpose prompt.
+        - generic [ref=e81]: Python · FastAPI · OpenAI · Hugging Face embeddings · LangChain · Semantic Search · AWS
+    - generic [ref=e83]:
+      - generic [ref=e84]: "demo video: paste YouTube link"
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: NLP Practitioner LMS
+          - generic [ref=e89]: Serbia · 29 chapters
+        - paragraph [ref=e90]: Dual-agent learning platform — a Teaching Agent for structured pedagogy and a General Agent for practical Q&A — with tiered RBAC (Free / Practitioner / Master), an adaptive 29-chapter curriculum, MCQ assessment, and streaming chat over SSE.
+        - generic [ref=e91]: Python · FastAPI · OpenAI · LangChain · PostgreSQL · JWT · OTP · SSE
+    - generic [ref=e93]:
+      - generic [ref=e94]: "demo video: paste YouTube link"
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: Influencer's GPT
+          - generic [ref=e99]: 200+ hours indexed · 90% style match
+        - paragraph [ref=e100]: Transcribes and embeds a creator's entire YouTube catalogue, then answers in their voice — Whisper for speech, retrieval for grounding, and a lot of careful prompt work for tone.
+        - generic [ref=e101]: Python · FastAPI · OpenAI · Whisper · LangChain · Vector DB · RAG
+  - generic [ref=e102]: Skills & Tools
+  - generic [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]: core
+      - generic [ref=e106]: Python, FastAPI, PostgreSQL, SQL optimization, WebSocket
+    - generic [ref=e107]:
+      - generic [ref=e108]: LLMs & agents
+      - generic [ref=e109]: LangChain, LangGraph, OpenAI SDK, Anthropic Claude, Google Gemini, multi-agent systems, long-term memory, MCP
+    - generic [ref=e110]:
+      - generic [ref=e111]: retrieval
+      - generic [ref=e112]: RAG, semantic search, vector databases, embedding storage, document processing, prompt engineering, context optimization
+    - generic [ref=e113]:
+      - generic [ref=e114]: multimodal
+      - generic [ref=e115]: Vision API, Whisper / STT, text-to-speech, Arabic NLP, multilingual pipelines
+    - generic [ref=e116]:
+      - generic [ref=e117]: infra
+      - generic [ref=e118]: Docker, AWS EC2, VPS deployment, Nginx, PM2, SSL, LangSmith monitoring, token analytics
+    - generic [ref=e119]:
+      - generic [ref=e120]: automation
+      - generic [ref=e121]: n8n, workflow automation, webhooks, API chaining, Slack / Gmail / LinkedIn APIs
+    - generic [ref=e122]:
+      - generic [ref=e123]: tools
+      - generic [ref=e124]: Cursor IDE, Claude Code
+  - generic [ref=e125]: Elsewhere
+  - list [ref=e126]:
+    - listitem [ref=e127]:
+      - text: Code and experiments on
+      - link "GitHub" [ref=e128] [cursor=pointer]:
+        - /url: https://github.com/arzzahid66
+      - text: .
+    - listitem [ref=e129]:
+      - text: Work history and posts on
+      - link "LinkedIn" [ref=e130] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/abdul-rehman-zahid-5a34b628a/
+      - text: .
+    - listitem [ref=e131]:
+      - text: Reach me at
+      - link "arzaiengineer@gmail.com" [ref=e132] [cursor=pointer]:
+        - /url: mailto:arzaiengineer@gmail.com
+      - text: — open to AI engineering roles and consulting.
+    - listitem [ref=e133]: English and Urdu; comfortable building for Arabic-language products.
