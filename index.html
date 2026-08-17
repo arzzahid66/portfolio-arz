@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdul Rehman Zahid — AI Engineer</title>
+<meta name="description" content="AI engineer building production agents, RAG systems, and multilingual NLP. Faisalabad, Pakistan.">
+<meta property="og:title" content="Abdul Rehman Zahid — AI Engineer">
+<meta property="og:description" content="AI engineer building production agents, RAG systems, and multilingual NLP.">
+<meta property="og:image" content="assets/arz-headshot.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/arz-headshot.png">
+<style>
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body {
+    color: #1b1b1b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 17px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    padding: 44px 20px 90px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  a { color: #0b5fbd; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 30px 0; }
+
+  .head { text-align: center; }
+  .head img { width: 188px; height: 188px; border-radius: 50%; object-fit: cover; object-position: 50% 16%; background: #f2f2f0; }
+  h1 { margin: 18px 0 6px; font-size: 38px; font-weight: 700; letter-spacing: -0.02em; }
+  .tagline { margin: 0 0 18px; font-size: 20px; font-weight: 400; color: #555; text-wrap: pretty; }
+  .links { display: flex; justify-content: center; align-items: center; gap: 18px; flex-wrap: wrap; font-size: 15px; }
+  .muted { color: #8c8c8c; }
+
+  p { text-wrap: pretty; }
+  .intro { margin: 0 0 34px; color: #2b2b2b; }
+
+  .row { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 34px; }
+  .col-side { flex: 0 0 168px; min-width: 168px; }
+  .col-main { flex: 1 1 420px; min-width: 280px; }
+  .years { font-size: 15px; color: #767676; margin-bottom: 10px; font-variant-numeric: tabular-nums; }
+  .logo { border: 1px solid #e4e4e0; border-radius: 4px; background: #fff; height: 78px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  .logo img { width: 100%; max-height: 100%; object-fit: contain; padding: 6px 8px; box-sizing: border-box; display: block; }
+  .logo.bleed img { width: 100%; height: 100%; object-fit: cover; padding: 0; }
+  .role { font-size: 19px; font-weight: 600; margin-bottom: 6px; }
+  .body-copy { margin: 0; color: #2b2b2b; }
+
+  .band { background: #f4f4f1; border-radius: 4px; padding: 6px 14px; margin: 44px 0 22px; font-size: 15px; color: #5a5a5a; letter-spacing: 0.03em; }
+  .bio p { margin: 0 0 14px; color: #2b2b2b; }
+
+  .project { margin-bottom: 32px; }
+  .project-head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 5px; }
+  .project-title { font-size: 19px; font-weight: 600; }
+  .metric { font-size: 14px; color: #767676; }
+  .stack { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; color: #8c8c8c; margin-bottom: 8px; }
+  .shot { flex: 0 0 168px; min-width: 168px; height: 104px; border: 1px solid #e4e4e0; border-radius: 4px;
+          background: repeating-linear-gradient(135deg, #fafaf8 0 7px, #f1f1ed 7px 14px);
+          display: flex; align-items: flex-end; padding: 8px; box-sizing: border-box; }
+  .shot span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; line-height: 1.35; color: #9a9a95; }
+  .thumb { flex: 0 0 168px; min-width: 168px; height: 104px; border: 1px solid #e4e4e0; border-radius: 4px;
+           position: relative; overflow: hidden; background: #111; cursor: pointer; }
+  .thumb:hover { border-color: #0b5fbd; }
+  .thumb-img { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.82; }
+  .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  .play span { width: 44px; height: 44px; border-radius: 50%; background: rgba(0,0,0,0.62); border: 1.5px solid rgba(255,255,255,0.9);
+               display: flex; align-items: center; justify-content: center; }
+  .play span::after { content: ""; width: 0; height: 0; border-left: 13px solid #fff; border-top: 8px solid transparent; border-bottom: 8px solid transparent; margin-left: 4px; }
+  .watch { display: inline-block; font-size: 14px; color: #0b5fbd; cursor: pointer; background: none; border: 0; padding: 0; font-family: inherit; }
+  .watch:hover { text-decoration: underline; }
+  .player { margin-top: 16px; border: 1px solid #e4e4e0; border-radius: 4px; overflow: hidden; background: #000; aspect-ratio: 16 / 9; }
+  .player iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+  .skill-row { display: flex; gap: 28px; align-items: baseline; flex-wrap: wrap; margin-bottom: 14px; }
+  .skill-label { flex: 0 0 168px; min-width: 168px; font-size: 15px; color: #767676; }
+  .skill-text { flex: 1 1 420px; min-width: 280px; color: #2b2b2b; }
+
+  .elsewhere { margin: 0; padding-left: 20px; color: #2b2b2b; }
+  .elsewhere li { margin-bottom: 7px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="head">
+    <img src="assets/arz-headshot.png" alt="Abdul Rehman Zahid">
+    <h1>Abdul Rehman Zahid</h1>
+    <p class="tagline">I build AI agents, RAG systems, and multilingual NLP that survive production</p>
+    <div class="links">
+      <a href="https://github.com/arzzahid66" target="_blank" rel="noreferrer noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/abdul-rehman-zahid-5a34b628a/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+      <a href="mailto:arzaiengineer@gmail.com">Email</a>
+      <span class="muted">Faisalabad, Pakistan</span>
+    </div>
+  </div>
+
+  <hr>
+
+  <p class="intro">Three years of taking language models the last mile: agents with memory that actually hold a conversation, retrieval over documents nobody wanted to read, and the boring infrastructure underneath that keeps both of them awake at 3am. Currently at Xeven Solutions. On the side I teach AI engineering one-to-one on Preply — 50+ students, 400 lessons, project-based from LLM APIs through RAG, agentic design, and n8n automation.</p>
+
+  <div class="row">
+    <div class="col-side">
+      <div class="years">2023 — Present</div>
+      <div class="logo"><img src="assets/xeven-logo.png" alt="Xeven Solutions"></div>
+    </div>
+    <div class="col-main">
+      <div class="role">AI Engineer, Xeven Solutions</div>
+      <p class="body-copy">I design and deploy production AI agents and multi-agent systems with long-term memory across legal tech, education, and enterprise workflows — cutting manual operational effort by 40%. I architected the RAG stack (semantic search, document processing, vector storage) on OpenAI, Claude, and Gemini, and the orchestration layer in LangChain and LangGraph with MCP, Slack, Gmail, and LinkedIn integrations. I also own how it runs: Docker, AWS EC2, self-hosted n8n behind Nginx and PM2, redundant vector databases, API failover, and LangSmith monitoring for observability and spend.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-side">
+      <div class="years">2024 — Present</div>
+      <div class="logo bleed"><img src="assets/preply-logo.png" alt="Preply"></div>
+    </div>
+    <div class="col-main">
+      <div class="role">AI Tutor (freelance), Preply</div>
+      <p class="body-copy">50+ students worldwide, 400+ lessons — project-based teaching on LLM APIs, prompt engineering, Claude Code, RAG, agentic AI design, and n8n automation.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-side">
+      <div class="years">2021 — 2023</div>
+      <div class="logo"><img src="assets/beacon-logo.png" alt="Beacon Impex"></div>
+    </div>
+    <div class="col-main">
+      <div class="role">Data Entry In-Charge, Beacon Impex</div>
+      <p class="body-copy">Structured large volumes of operational and customer data, built reusable templates and database workflows that cut manual errors, and standardized reporting formats across departments. This is where the automation instinct started.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-side">
+      <div class="years">2017 — 2022</div>
+      <div class="logo"><img src="assets/gcuf-logo.png" alt="Government College University Faisalabad"></div>
+    </div>
+    <div class="col-main">
+      <div class="role">BSc Electrical Engineering Technology, GCUF</div>
+      <p class="body-copy">Government College University Faisalabad. Engineering fundamentals first; the machine learning came from evenings, papers, and building things that didn't work until they did.</p>
+    </div>
+  </div>
+
+  <div class="band">Bio</div>
+  <div class="bio">
+    <p>Abdul Rehman Zahid is an AI engineer based in Faisalabad, Pakistan. At Xeven Solutions he designs production-grade AI agents and multi-agent systems with long-term memory, and architected the company's retrieval stack — semantic search, document processing, vector storage — across the OpenAI, Anthropic Claude, and Google Gemini APIs. His Arabic NLP platform has processed over a million multilingual documents at 92% accuracy.</p>
+    <p>He also upgraded the company's deployment practice — Docker, AWS EC2, redundant vector databases, API failover, LangSmith observability — and he teaches AI engineering to students worldwide on Preply. He holds a BSc in Electrical Engineering Technology from Government College University Faisalabad.</p>
+  </div>
+
+  <div class="band">Selected Projects</div>
+  <div id="projects"></div>
+
+  <div class="band">Skills &amp; Tools</div>
+  <div id="skills"></div>
+
+  <div class="band">Elsewhere</div>
+  <ul class="elsewhere">
+    <li>Code and experiments on <a href="https://github.com/arzzahid66" target="_blank" rel="noreferrer noopener">GitHub</a>.</li>
+    <li>Work history and posts on <a href="https://www.linkedin.com/in/abdul-rehman-zahid-5a34b628a/" target="_blank" rel="noreferrer noopener">LinkedIn</a>.</li>
+    <li>Reach me at <a href="mailto:arzaiengineer@gmail.com">arzaiengineer@gmail.com</a> — open to AI engineering roles and consulting.</li>
+    <li>English and Urdu; comfortable building for Arabic-language products.</li>
+  </ul>
+
+</div>
+
+<script>
+/* ---------------------------------------------------------------
+   EDIT YOUR PROJECTS HERE.
+   video: paste an unlisted YouTube link (or leave "" for none).
+   --------------------------------------------------------------- */
+const PROJECTS = [
+  {
+    title: "Legal Translation Order Agent",
+    metric: "500+ interactions/day",
+    video: "",
+    shot: "demo video: paste YouTube link",
+    desc: "Conversational AI that replaced manual client intake for a legal translation service — collects mandatory order details dynamically, routes standard vs. PRO requests, and ships with a no-code dashboard for editing services, FAQs, and agent behaviour. Cut manual processing by 70%.",
+    stack: "Python · FastAPI · LangChain · LangGraph · OpenAI · RAG · PostgreSQL · Docker · AWS EC2"
+  },
+  {
+    title: "Multi-Agent Fleet Chatbot",
+    metric: "stateful across sessions",
+    video: "",
+    shot: "demo video: paste YouTube link",
+    desc: "A Supervisor Agent routes questions to specialized SQL and troubleshooting sub-agents for commercial robot fleets, returning live fleet metrics and manufacturer-specific repair guidance. PostgreSQL checkpointing keeps conversations stateful; retry middleware and rate limiting keep it production-grade.",
+    stack: "Python · FastAPI · LangGraph · LangChain · MSSQL · PostgreSQL · SQLAlchemy"
+  },
+  {
+    title: "Arabic NLP Platform",
+    metric: "1M+ docs · 92% accuracy",
+    video: "",
+    shot: "demo video: paste YouTube link",
+    desc: "Arabic-and-English NLP system for question answering, summarization, and translation over enterprise content, built on language-specific pipelines and embedding search instead of one general-purpose prompt.",
+    stack: "Python · FastAPI · OpenAI · Hugging Face embeddings · LangChain · Semantic Search · AWS"
+  },
+  {
+    title: "NLP Practitioner LMS",
+    metric: "Serbia · 29 chapters",
+    video: "",
+    shot: "demo video: paste YouTube link",
+    desc: "Dual-agent learning platform — a Teaching Agent for structured pedagogy and a General Agent for practical Q&A — with tiered RBAC (Free / Practitioner / Master), an adaptive 29-chapter curriculum, MCQ assessment, and streaming chat over SSE.",
+    stack: "Python · FastAPI · OpenAI · LangChain · PostgreSQL · JWT · OTP · SSE"
+  },
+  {
+    title: "Influencer's GPT",
+    metric: "200+ hours indexed · 90% style match",
+    video: "",
+    shot: "demo video: paste YouTube link",
+    desc: "Transcribes and embeds a creator's entire YouTube catalogue, then answers in their voice — Whisper for speech, retrieval for grounding, and a lot of careful prompt work for tone.",
+    stack: "Python · FastAPI · OpenAI · Whisper · LangChain · Vector DB · RAG"
+  }
+];
+
+const SKILLS = [
+  ["core", "Python, FastAPI, PostgreSQL, SQL optimization, WebSocket"],
+  ["LLMs & agents", "LangChain, LangGraph, OpenAI SDK, Anthropic Claude, Google Gemini, multi-agent systems, long-term memory, MCP"],
+  ["retrieval", "RAG, semantic search, vector databases, embedding storage, document processing, prompt engineering, context optimization"],
+  ["multimodal", "Vision API, Whisper / STT, text-to-speech, Arabic NLP, multilingual pipelines"],
+  ["infra", "Docker, AWS EC2, VPS deployment, Nginx, PM2, SSL, LangSmith monitoring, token analytics"],
+  ["automation", "n8n, workflow automation, webhooks, API chaining, Slack / Gmail / LinkedIn APIs"],
+  ["tools", "Cursor IDE, Claude Code"]
+];
+
+function youtubeId(v) {
+  if (!v) return null;
+  const s = String(v).trim();
+  if (/^[\w-]{11}$/.test(s)) return s;
+  const m = s.match(/(?:v=|youtu\.be\/|\/embed\/|\/shorts\/|\/live\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+
+const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+document.getElementById("projects").innerHTML = PROJECTS.map((p, i) => {
+  const id = youtubeId(p.video);
+  const tile = id
+    ? '<div class="thumb" data-i="' + i + '" role="button" tabindex="0" title="Play demo video">' +
+        '<div class="thumb-img" style="background-image:url(https://i.ytimg.com/vi/' + id + '/hqdefault.jpg)"></div>' +
+        '<div class="play"><span></span></div>' +
+      '</div>'
+    : '<div class="shot"><span>' + esc(p.shot) + '</span></div>';
+  const watch = id ? '<button class="watch" data-i="' + i + '">watch demo video →</button>' : "";
+  return '<div class="project">' +
+    '<div class="row" style="margin-bottom:0">' + tile +
+      '<div class="col-main">' +
+        '<div class="project-head"><span class="project-title">' + esc(p.title) + '</span>' +
+        (p.metric ? '<span class="metric">' + esc(p.metric) + '</span>' : "") + '</div>' +
+        '<p class="body-copy" style="margin-bottom:8px">' + esc(p.desc) + '</p>' +
+        '<div class="stack">' + esc(p.stack) + '</div>' + watch +
+      '</div>' +
+    '</div>' +
+    '<div class="player-slot" data-slot="' + i + '"></div>' +
+  '</div>';
+}).join("");
+
+document.getElementById("skills").innerHTML = SKILLS.map(([label, text]) =>
+  '<div class="skill-row"><div class="skill-label">' + esc(label) + '</div><div class="skill-text">' + esc(text) + '</div></div>'
+).join("");
+
+let open = null;
+function toggle(i) {
+  const slot = document.querySelector('.player-slot[data-slot="' + i + '"]');
+  if (open === i) { slot.innerHTML = ""; open = null; setLabel(i, "watch demo video →"); return; }
+  if (open !== null) {
+    document.querySelector('.player-slot[data-slot="' + open + '"]').innerHTML = "";
+    setLabel(open, "watch demo video →");
+  }
+  const id = youtubeId(PROJECTS[i].video);
+  slot.innerHTML = '<div class="player"><iframe src="https://www.youtube.com/embed/' + id +
+    '?autoplay=1&rel=0" title="Demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>';
+  open = i;
+  setLabel(i, "hide demo video");
+}
+function setLabel(i, text) {
+  const b = document.querySelector('.watch[data-i="' + i + '"]');
+  if (b) b.textContent = text;
+}
+document.addEventListener("click", e => {
+  const t = e.target.closest(".thumb, .watch");
+  if (t) toggle(Number(t.dataset.i));
+});
+document.addEventListener("keydown", e => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+  const t = e.target.closest(".thumb");
+  if (t) { e.preventDefault(); toggle(Number(t.dataset.i)); }
+});
+</script>
+</body>
+</html>
